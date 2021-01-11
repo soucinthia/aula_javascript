@@ -27,3 +27,13 @@ console.log(lista);
 console.log(lista.reverse()); //Troca a ordem da lista
 console.log(lista.toString());
 console.log(lista.join(" - "));
+
+//Dicionario
+var fruta = {nome:"maca", cor:"vermelha"};
+console.log(fruta);
+alert(fruta.cor);
+
+//Lista de dicionario
+var frutas = [{nome:"maca", cor:"vermelha"}, {nome:"uva", cor:"roxa"}]
+console.log(frutas);
+alert(frutas[1].nome);
