@@ -39,7 +39,7 @@ var frutas = [{nome:"maca", cor:"vermelha"}, {nome:"uva", cor:"roxa"}]
 console.log(frutas);
 alert(frutas[1].nome);
 */
-
+/*
 //Condicionais If Else - Caixa de perguntas
 var idade = prompt("Qual sua idade");
 if (idade >=18){
@@ -71,3 +71,27 @@ var d = new Date();
 alert(d.getDay());
 alert(d.getHours());
 alert(d.getMinutes());
+*/
+function soma(n1, n2){
+    return n1 + n2;
+}
+
+function setreplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+
+alert(soma(5, 10));
+alert(setreplace("Vai Japão", "Japão","Brasil"));
+
+function validaIdade(idade){
+    var validar;
+    if (idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
